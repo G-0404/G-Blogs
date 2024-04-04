@@ -1,0 +1,19 @@
+.transform-55 {
+  -webkit-transition: 0.55s ease-in-out;
+  transition: 0.55s ease-in-out;
+}
+
+body {
+  // overflow: hidden;
+  // height: 100%;
+  // width: 100%;
+  // position: fixed;
+  &::-webkit-scrollbar {
+    width: 0px;
+  }
+}
+div {
+  &::-webkit-scrollbar {
+    width: 0px;
+  }
+}
